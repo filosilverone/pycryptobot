@@ -1,7 +1,7 @@
 import requests
 
 class Github():
-    def __init__(self, user='whittlem', repo='pycryptobot', api_url='https://api.github.com'):
+    def __init__(self, user='filosilverone', repo='pycryptobot', api_url='https://api.github.com'):
         self.api_url = api_url
         self.user = user
         self.repo = repo
